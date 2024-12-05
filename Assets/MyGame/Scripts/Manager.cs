@@ -20,9 +20,19 @@ public class Manager : MonoBehaviour
                 
                 //Tische platzieren
                 GameObject table = Instantiate(tablePrefab, tablePosition, Quaternion.identity, transform);
-            
+
                 //Sessel platzieren
-                //Transform[]
+                Transform[] chairPositions = table.GetComponentsInChildren<Transform>();
+
+                foreach (Transform chairPos in chairPositions)
+                {
+                    if (chairPos.CompareTag("Chair"))
+                    {
+                        GameObject chair = Instantiate(chairPrefab, chairPos.position, chairPos.rotation, table.transform);
+                        Debug.Log("Found Chair");
+                    }
+                }
+               
             }
 
         }
