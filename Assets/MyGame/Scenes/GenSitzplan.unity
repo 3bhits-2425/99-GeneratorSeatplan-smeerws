@@ -169,10 +169,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tableLayout: {fileID: 11400000, guid: fa1976920beb5754e90557de5c8086be, type: 2}
   students:
-  - {fileID: 11400000, guid: b68da12be9e90db4ab363517dbd70942, type: 2}
-  - {fileID: 11400000, guid: 29824f79586004d4c9e1b9abef79a3d3, type: 2}
-  - {fileID: 11400000, guid: 524b400587252de4f9c675e8a42f3367, type: 2}
-  - {fileID: 11400000, guid: b68da12be9e90db4ab363517dbd70942, type: 2}
+  - {fileID: 11400000, guid: 332a66a276a78a24287cfc15b87dd60b, type: 2}
+  - {fileID: 11400000, guid: 0c232755d78dd654bb449d965223bc20, type: 2}
+  - {fileID: 11400000, guid: 601c4e7d33c9e2c49bd26794fe834b1f, type: 2}
+  - {fileID: 11400000, guid: bd7636653fe0b104a958d2c7eca992de, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 7fd575fadcb03e1478cb19d5091632b3, type: 2}
+  - {fileID: 11400000, guid: f56b1279b5f02ac4db09277266cfafd2, type: 2}
+  - {fileID: 11400000, guid: 7766deb1f70f6e94fa96c61fdb075d40, type: 2}
+  - {fileID: 11400000, guid: 0864ca6f5584c244ba21e58b05c3a50d, type: 2}
+  - {fileID: 11400000, guid: 03926483689c9474f889d8724a439d8b, type: 2}
+  - {fileID: 11400000, guid: d580ffa919f5f9447a73fe0bfd9546e0, type: 2}
+  - {fileID: 11400000, guid: 4a75a4fecb552ee40a560bdbd1e6c203, type: 2}
+  - {fileID: 11400000, guid: 07e50d9660025544e84f1a71990d18ff, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 99737fae447101b4ba7c12b579b20e15, type: 2}
+  - {fileID: 11400000, guid: 814d92b6015dcbc4e9b562cdc486de6e, type: 2}
+  - {fileID: 11400000, guid: b534b11cbfc23924da76dc44fbd26f04, type: 2}
+  - {fileID: 11400000, guid: 804dce90e25c6ee47ab57d33fd67e4f7, type: 2}
+  - {fileID: 11400000, guid: 2b6293cd54a9d5941a27ef6a9aed4147, type: 2}
+  - {fileID: 11400000, guid: d03c1cb99e35abe4a9fd7da7d3b8eb55, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   tablePrefab: {fileID: 718888657192995486, guid: 6917da532515ff3438c22bda62b349b6, type: 3}
   chairPrefab: {fileID: 4286607374611187970, guid: 2570c584a8914a749a12eefb4dbcd63d, type: 3}
 --- !u!1 &519420028
@@ -267,9 +288,78 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1537720156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537720159}
+  - component: {fileID: 1537720158}
+  - component: {fileID: 1537720157}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1537720157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537720156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1537720158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537720156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1537720159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537720156}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 197413777}
+  - {fileID: 1537720159}
